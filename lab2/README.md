@@ -33,10 +33,16 @@ There are 4 classes in the program:
 
 The `main.cpp` gives you the frame. In order to make it work and compile, you will need to make several changes to the class files. 
 
-# Iterations
+# Exercise
 
 You should work in small iterations towards completing the exercise. I will illustrate the steps with a few examples, and then you should try on your own until you get to the final result.
 
+The steps that we will be repeating are the following:
+1. Build the program with `make` on Mac/Linux or `mingw32-make` on Windows.
+2. Look at the first error.
+3. Fix the first error so it dissapears (i.e. the code compiles, changes only in the `.h` files)
+4. Go to #1 until no more errors during compilation.
+5. Build the program with `make` on Mac/Linux or `mingw32-make` on Windows.
+7. Linking fails - look at the first error and fix it by making changes in the `.cpp` files. Define empty member functions - don't try to implement them, our goal is to produce an executable.
 
-
-
+Basically, when you repeat the process above several times, you will have an executable file `lab1.exe` on Windows or `lab` on Linux/Mac that doesn't do anything. 
