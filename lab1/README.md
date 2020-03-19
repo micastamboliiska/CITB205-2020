@@ -36,6 +36,7 @@ If you decide to go with Windows directly, there are a couple of more steps:
 2. Install MinGW (http://www.mingw.org/wiki/Getting_Started/) Use default location (`C:\MinGW`)
 3. Install CMake (https://github.com/Kitware/CMake/releases/download/v3.17.0-rc3/cmake-3.17.0-rc3-win64-x64.msi). *Make sure you add cmake to your PATH environment variable. 
 4. Make sure `C:\MinGW\bin` is in your PATH environment variable
+5. Install VS Code: https://code.visualstudio.com/download
 
 *If you are not sure how to edit your environment variables, see https://www.architectryan.com/2018/03/17/add-to-the-path-on-windows-10/
 
